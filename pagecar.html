@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icones com o font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/styles/page_car.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <title>Consultora Hyundai - Querilaine</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <img src="/src/images/logo.png" id="nav_logo" />
+
+        <ul id="nav_list">
+          <li class="nav-item">
+            <a href="index.html#home"> Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#menu_cars"> Carros</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#about"> Sobre </a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#services"> Serviços </a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#testimonials"> Depoimentos </a>
+          </li>
+        </ul>
+
+        <button class="btn-default">Entre em contato</button>
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="index.html#home"> Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#menu_cars"> Carros</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#about"> Sobre </a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#services"> Serviços </a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#testimonials"> Depoimentos </a>
+          </li>
+        </ul>
+
+        <button class="btn-default">Entre em contato</button>
+      </div>
+    </header>
+    <div id="page_car">
+      <div id="content_page_car">
+        <div id="mosaic_car">
+          <div id="car_column_1">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img id="car_1" class="car_1" src="/src/images/hb20.2.2.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img id="car_2" class="car_1" src="/src/images/hb20.2.1.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <img id="car_3" class="car_2" src="/src/images/hb20.2.5.jpg" alt="" />
+          </div>
+
+          <div id="car_column_2">
+            <img id="car_4" class="car_3" src="/src/images/hb20.2.7.jpg" alt="" />
+            <img id="car_5" class="car_3" src="/src/images/hb20.2.jpg" alt="" />
+            <img id="car_6" class="car_3" src="/src/images/hb20.2.9.jpg" alt="" />
+          </div>
+
+          <div id="car_column_3">
+            <img id="car_7" class="car_4" src="/src/images/hb20.2.4.jpg" alt="" />
+
+            <div class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img id="car_8"  class="car_5" src="/src/images/hb20.2.10.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img id="car_9"  class="car_5" src="/src/images/hb20.2.11.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="page_car_text">
+          <h2 id="page_car_title">HB20S Platinum Safety</h2>
+          <p id="page_car_text_1">
+            O Hyundai HB20S Platinum Safety 2025 é um sedã compacto que combina
+            desempenho, segurança e tecnologia. Equipado com motor 1.0 TGDI de
+            120 cv, oferece bom desempenho e eficiência de combustível.<br />
+            Destaca-se por recursos de segurança como frenagem autônoma,
+            assistente de permanência em faixa, alerta de ponto cego e central
+            SOS Bluelink®. No design, possui acabamentos sofisticados e rodas de
+            16 polegadas. O modelo está disponível a partir de R$ 129.490,00.
+          </p>
+          <a href="https://wa.link/tr58sz" id="button_car"><button class="btn-default">Fazer cotação</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/src/javascript/script_car.js"></script>
+  </body>
+</html>

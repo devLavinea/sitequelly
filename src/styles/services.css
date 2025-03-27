@@ -1,0 +1,64 @@
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--color-neutral-0);
+    min-height: calc(100vh - 91px);
+    padding-left: 10%;
+    width: 100%;
+    
+
+    
+}
+#services h2{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.service{
+    background-color: var(--color-neutral-0);
+    margin-bottom: 40px;
+    color: var(--color-primary-3);
+    border-radius: 0px 30px 0px 30px;
+    width: 65%;
+    min-height: 10vh;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    line-height: 1.7;
+    
+    
+    
+}
+
+
+
+.service i{
+    font-size: 2rem;
+    margin-right: 6%;
+}
+
+#service_meio{
+    margin-left: 25%;
+}
+
+
+
+@media screen and (max-width: 900px) { 
+    #service_meio{
+        margin-left: 15%;
+    }
+    
+    .service{
+        width: 80%;
+        
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+
+    .service p{
+        font-size: 1.3rem;
+    }
+}
