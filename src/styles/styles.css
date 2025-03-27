@@ -93,6 +93,8 @@ a {
   color: var(--color-neutral-0);
 }
 
+
+
 @media (max-width: 900px) {
   .btn-default {
     padding: 10px 26px;

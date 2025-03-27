@@ -68,17 +68,17 @@ var swiper1 = new Swiper(".mySwiper1", {
       prevEl: ".swiper-button-prev",
     },
     breakpoints: {
-      // when window width is >= 320px
+      
       400: {
         slidesPerView: 1,
         spaceBetween: 10,
       },
-      // when window width is >= 480px
+      
       600: {
         slidesPerView: 2,
         spaceBetween: 10,
       },
-      // when window width is >= 480px
+      
       1000: {
         slidesPerView: 3,
         spaceBetween: 20,
