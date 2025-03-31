@@ -11,13 +11,14 @@ footer {
 
 #footer {
   padding-top: 50px;
-  min-height: 60vh;
+  height: 60vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   position: relative;
   align-items: start;
   gap: 25%;
+  
 }
 
 .footer-text a {
@@ -26,7 +27,7 @@ footer {
 }
 .footer-text {
   color: var(--color-neutral-0);
-  max-width: 30vw;
+  width: 30vw;
   font-size: 1.1rem;
 }
 .footer-text h3 {
@@ -84,22 +85,25 @@ footer {
   box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 900px) {
+@media (min-width:500px) and (max-width: 900px) { 
   footer {
-    justify-content: space-around;
-    height: auto;
+    justify-content: space-start;
+    
   }
   #footer {
     flex-direction: column;
     justify-content: start;
     padding-top: 0;
-    min-height: 90vh;
+    height: 75vh;
+    
+    
   }
 
   .footer-text {
     padding-left: 30px;
-    max-width: 90%;
-    font-size: 1rem;
+    width: 80%;
+    font-size: 1.2rem;
+    
   }
 
   #shade {
@@ -110,13 +114,70 @@ footer {
   #footer_items_bottom {
     width: 100%;
   }
-  footer h2 {
+  #footer_h2 {
     color: var(--color-neutral-0);
-    margin-left: 1%;
-    font-size: 1.4rem;
+   margin-left:30px;
+    font-size: 1.8rem;
     margin-bottom: 40px;
   }
   .social-media-buttons {
     margin-bottom: 20px;
   }
+
+  .social-media-buttons a {
+   
+    width: 55px;
+    height: 55px;
+    font-size: 1.9rem;
+  
+  }
+}
+
+@media screen and (max-width:499px){
+  footer {
+    justify-content: space-start;
+    
+  }
+  #footer {
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 0;
+    height: 85vh;
+    
+    
+  }
+
+  .footer-text {
+    padding-left: 30px;
+    width: 90%;
+    font-size: 1.1rem;
+    
+  }
+
+  #shade {
+    width: 65%;
+    height: 17%;
+  }
+
+  #footer_items_bottom {
+    width: 100%;
+  }
+  #footer_h2 {
+    color: var(--color-neutral-0);
+   margin-left:30px;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+  }
+  .social-media-buttons {
+    margin-bottom: 40px;
+  }
+
+  .social-media-buttons a {
+   
+    width: 45px;
+    height: 45px;
+    font-size: 1.9rem;
+  
+  }
+
 }

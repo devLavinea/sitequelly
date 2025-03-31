@@ -1,6 +1,6 @@
 #home{
     display: flex;
-    min-height: 100vh;
+    height: 100vh;
     position: relative;
     background-image: url('../images/banner.jpg');
     background-image:no-repeat;
@@ -28,6 +28,7 @@
     color: var(--color-neutral-0);
     align-items: center;
     text-align: center;
+    
    
 
 
@@ -84,16 +85,17 @@
 
 
 
-@media (max-width: 900px) { 
+@media (min-width:500px) and (max-width: 900px) { 
 
     #home{
         display: flex;
-        min-height: 80vh;
+        height: 80vh;
     }
 
     #cta{
         margin-top: 3%;
         width: 100%;
+       
     }
     
 #cta .title{
@@ -109,9 +111,25 @@
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 499px) {
 
     #cta .description{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        
+    }
+    #cta{
+        width: 95%;
+    }
+    .btn-main{
+        width:320px;
+        height: 55px;
+    }
+    #cta .title{
+        font-size: 3rem;
+       
+    }
+    #home{
+        display: flex;
+        height: 95vh;
     }
  }

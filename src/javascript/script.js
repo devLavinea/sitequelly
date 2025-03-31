@@ -76,12 +76,12 @@ var swiper1 = new Swiper(".mySwiper1", {
       
       600: {
         slidesPerView: 2,
-        spaceBetween: 10,
+        spaceBetween: 25,
       },
       
       1000: {
         slidesPerView: 3,
-        spaceBetween: 20,
+        spaceBetween: 25,
       },
     },
   });
@@ -97,22 +97,15 @@ var swiper1 = new Swiper(".mySwiper1", {
     },
     breakpoints: {
       // when window width is >= 320px
-      400: {
-        slidesPerView: 1,
-        spaceBetween: 15,
-      },
+    
       // when window width is >= 480px
-      550: {
+      499: {
         slidesPerView: 2,
         spaceBetween: 15,
       },
-      // when window width is >= 480px
-      800: {
-        slidesPerView: 3,
-        spaceBetween: 15,
-      },
+    
       // when window width is >= 640px
-      1100: {
+      1000: {
         slidesPerView: 4,
         spaceBetween: 15,
       },

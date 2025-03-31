@@ -50,7 +50,7 @@ header{
 }
 
 
-@media  (max-width: 1170px) { 
+@media  (max-width: 900px) { 
 
     #nav_list,
     #navbar .btn-default {
@@ -61,7 +61,7 @@ header{
         display: block;
         border: none;
         background-color: transparent;
-        font-size: 1.7rem;
+        font-size: 2rem;
         cursor: pointer;
         color: var(--color-neutral-0);
         
