@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   color: var(--color-neutral-0);
-  height: calc(100vh - 91px);
+  height: auto;
 }
 
 #about_img {

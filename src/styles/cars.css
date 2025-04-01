@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 91px);
+  height: auto;
+  padding-top:60px;
 }
 
 #menu_cars .section-title {
