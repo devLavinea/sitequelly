@@ -75,7 +75,7 @@ Caso tenha dúvidas ou sugestões sobre o projeto, você pode me encontrar nas s
 ## Imagens
 
 Aqui estão algumas capturas de tela do projeto em funcionamento:
-
+<div style="display: flex; align-items: center; justify-content: center;">
 ### Página Inicial
 
 <img src="src/images/desktop.png" alt="Página Inicial" width="600"/>
@@ -83,7 +83,7 @@ Aqui estão algumas capturas de tela do projeto em funcionamento:
 ### Página de Descrição do Carro - Desktop
 
 <img src="src/images/carros-desktop.png" alt="Descrição do Carro - desktop" width="600"/>
-
+</div>
 
 ### Versão Tablet
 
