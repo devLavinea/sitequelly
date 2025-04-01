@@ -1,85 +1,70 @@
-#services{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: var(--color-neutral-0);
-    height: calc(100vh - 91px);
-    padding-left: 10%;
-    width: 100%;
-    
-
-    
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--color-neutral-0);
+  height: calc(100vh - 91px);
+  padding-left: 10%;
+  width: 100%;
 }
-#services h2{
-    font-size: 1.8rem;
-    margin-bottom: 30px;
+#services h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
 }
 
-.service{
-    background-color: var(--color-neutral-0);
-    margin-bottom: 40px;
-    color: var(--color-primary-3);
-    border-radius: 0px 30px 0px 30px;
-    width: 65%;
+.service {
+  background-color: var(--color-neutral-0);
+  margin-bottom: 40px;
+  color: var(--color-primary-3);
+  border-radius: 0px 30px 0px 30px;
+  width: 65%;
 
-    padding: 35px 5%;
-    display: flex;
-    align-items: center;
-    line-height: 1.7;
-    
-    
-    
+  padding: 35px 5%;
+  display: flex;
+  align-items: center;
+  line-height: 1.7;
 }
 
-
-
-.service i{
-    font-size: 2rem;
-    margin-right: 6%;
+.service i {
+  font-size: 2rem;
+  margin-right: 6%;
 }
 
-#service_meio{
-    margin-left: 25%;
+#service_meio {
+  margin-left: 25%;
 }
 
+@media (min-width: 500px) and (max-width: 900px) {
+  #service_meio {
+    margin-left: 15%;
+  }
 
+  .service {
+    width: 80%;
+  }
 
-@media (min-width:500px) and (max-width: 900px) { 
-    #service_meio{
-        margin-left: 15%;
-    }
-    
-    .service{
-        width: 80%;
-        
-    }
-
-    #services{
-        position:relative;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        height:auto;
-       
-    }
-
+  #services {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 499px) {
-    #service_meio{
-        margin-left: 15%;
-    }
+  #service_meio {
+    margin-left: 15%;
+  }
 
-    .service p{
-        font-size: 1.1rem;
-    }
+  .service p {
+    font-size: 1.1rem;
+  }
 
-    #services{
-        height:auto;
-        padding:40px;
-        
-    }
-    .service{
-        width: 90%;
-        
-    }
+  #services {
+    height: auto;
+    padding: 40px;
+  }
+  .service {
+    width: 90%;
+  }
 }

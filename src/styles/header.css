@@ -1,95 +1,80 @@
-header{
-    width: 100%;
-    padding:  10px 8%;
-    position: sticky;
-    top: 0;
-    background-color: var(--color-primary-3);
-    z-index: 3;
-    
+header {
+  width: 100%;
+  padding: 10px 8%;
+  position: sticky;
+  top: 0;
+  background-color: var(--color-primary-3);
+  z-index: 3;
 }
 
 #navbar {
-    width:100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#nav_logo{
-    width:84px;
-
+#nav_logo {
+  width: 84px;
 }
 
-#nav_list{
-    display: flex;
-    list-style: none;
-    gap: 48px;
+#nav_list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
 }
 
-.nav-item a{
-    text-decoration: none;
-    color: var(--color-neutral-0);
-    font-weight: 600;
-
+.nav-item a {
+  text-decoration: none;
+  color: var(--color-neutral-0);
+  font-weight: 600;
 }
 
-.nav-item.active a{
-    color:var(--color-neutral-0);
-    border-bottom: 3px solid var(--color-primary-2);
+.nav-item.active a {
+  color: var(--color-neutral-0);
+  border-bottom: 3px solid var(--color-primary-2);
 }
 
 #mobile_btn {
-    display: none;
+  display: none;
 }
 
 #mobile_menu {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  #nav_list,
+  #navbar .btn-default {
     display: none;
-    
-   
+  }
+
+  #mobile_btn {
+    display: block;
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--color-neutral-0);
+  }
+
+  #mobile_menu.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  #mobile_nav_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 12px 0px 20px 0px;
+    font-size: 1.3rem;
+  }
+
+  #mobile_nav_list .nav-item {
+    list-style: none;
+    text-align: center;
+  }
 }
-
-
-@media  (max-width: 900px) { 
-
-    #nav_list,
-    #navbar .btn-default {
-        display: none;
-    }
-
-    #mobile_btn{
-        display: block;
-        border: none;
-        background-color: transparent;
-        font-size: 2rem;
-        cursor: pointer;
-        color: var(--color-neutral-0);
-        
-    }
-
-    #mobile_menu.active{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 20px;
-        
-     
-        
-
-    }
-
-    #mobile_nav_list{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        margin: 12px 0px 20px 0px;
-        font-size: 1.3rem;
-        
-    }
-
-    #mobile_nav_list .nav-item{
-        list-style: none;
-        text-align: center;
-    }
-}
-

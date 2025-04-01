@@ -66,10 +66,10 @@
   object-fit: cover;
 }
 
-@media (min-width:500px) and (max-width: 900px) { 
+@media (min-width: 500px) and (max-width: 900px) {
   #menu_cars {
-    height:auto;
-    padding:50px 25px;
+    height: auto;
+    padding: 50px 25px;
   }
 }
 
@@ -79,8 +79,8 @@
   }
 
   #menu_cars {
-    height:auto;
-    padding-top:50px ;
-    padding-bottom:40px ;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
   }
 }
