@@ -81,22 +81,24 @@ Aqui estão algumas capturas de tela do projeto em funcionamento:
 <img src="src/images/desktop.png" alt="Descrição do Carro - desktop" width="600"/>
 
 
+### Versão Tablet
+
+<img src="src/images/tablet.png" alt="Versão Tablet" width="400"/>
+
+
+### Versão Mobile
+
+<img src="src/images/mobile.png" alt="Versão Mobile" width="250"/>
+
+
 ### Página de Descrição do Carro - Desktop
 
 <img src="src/images/carros-desktop.png" alt="Descrição do Carro - desktop" width="600"/>
 
 
-### Versão Tablet
-
-<img src="src/images/tablet.png" alt="Versão Tablet" width="400"/>
-
 ### Página de Descrição do Carro - Tablet e Mobile
 
 <img src="src/images/carros-mobile-tablet.png" alt="Descrição do Carro" width="600"/>
-
-### Versão Mobile
-
-<img src="src/images/mobile.png" alt="Versão Mobile" width="250"/>
 
 ---
 
