@@ -1,4 +1,4 @@
-# Hyundai Consultora de Vendas - Site Oficial
+# Hyundai Consultora de Vendas - Querilaine Souza
 
 **Desenvolvedora Front-End | HTML, CSS, JavaScript**
 
@@ -78,15 +78,20 @@ Aqui estão algumas capturas de tela do projeto em funcionamento:
 
 ### Página Inicial
 
-<img src="src/images/homepage.png" alt="Página Inicial" width="600"/>
+<img src="src/images/desktop.png" alt="Página Inicial" width="600"/>
 
-### Página de Descrição do Carro
+### Página de Descrição do Carro Desktop
 
-<img src="src/images/car-description.png" alt="Descrição do Carro" width="600"/>
+<img src="src/images/carros-desktop" alt="Descrição do Carro" width="600"/>
+
 
 ### Versão Tablet
 
 <img src="src/images/tablet.png" alt="Versão Tablet" width="400"/>
+
+### Página de Descrição do Carro Tablet
+
+<img src="src/images/carros-mobile-tablet" alt="Descrição do Carro" width="600"/>
 
 ### Versão Mobile
 
