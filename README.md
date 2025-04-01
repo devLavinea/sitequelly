@@ -98,7 +98,7 @@ Aqui estão algumas capturas de tela do projeto em funcionamento:
 
 ### Página de Descrição do Carro - Tablet e Mobile
 
-<img src="src/images/carros-mobile-tablet.png" alt="Descrição do Carro" width="600"/>
+<img src="src/images/carros-mobile-tablet.png" alt="Descrição do Carro" width="400"/>
 
 ---
 
