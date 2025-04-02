@@ -1,5 +1,7 @@
 # Hyundai Consultora de Vendas - Querilaine Souza
 
+<img src="src/images/consultora.png" alt="Hyundai Consultora de Vendas - Querilaine Souza"/>
+
 **Desenvolvedora Front-End | HTML, CSS, JavaScript**
 
 Este projeto consiste na criação de um **site para uma consultora de vendas da Hyundai**, com o objetivo de fornecer informações sobre a marca Hyundai, apresentar carros em destaque, descrever modelos de carros e oferecer um meio de contato para os clientes. O site foi desenvolvido utilizando **HTML**, **CSS**, e **JavaScript**, garantindo uma navegação intuitiva, responsiva e otimizada para dispositivos móveis e desktop.
