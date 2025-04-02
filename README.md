@@ -1,5 +1,7 @@
 # Hyundai Consultora de Vendas - Querilaine Souza
 
+<img src="src/images/consultora.png" alt="Hyundai Consultora de Vendas - Querilaine Souza"/>
+
 **Desenvolvedora Front-End | HTML, CSS, JavaScript**
 
 Este projeto consiste na criação de um **site para uma consultora de vendas da Hyundai**, com o objetivo de fornecer informações sobre a marca Hyundai, apresentar carros em destaque, descrever modelos de carros e oferecer um meio de contato para os clientes. O site foi desenvolvido utilizando **HTML**, **CSS**, e **JavaScript**, garantindo uma navegação intuitiva, responsiva e otimizada para dispositivos móveis e desktop.
@@ -78,24 +80,27 @@ Aqui estão algumas capturas de tela do projeto em funcionamento:
 
 ### Página Inicial
 
-<img src="src/images/desktop.png" alt="Página Inicial" width="600"/>
-
-### Página de Descrição do Carro Desktop
-
-<img src="src/images/carros-desktop.png" alt="Descrição do Carro - desktop" width="600"/>
+<img src="src/images/desktop.png" alt="Descrição do Carro - desktop" width="600"/>
 
 
 ### Versão Tablet
 
 <img src="src/images/tablet.png" alt="Versão Tablet" width="400"/>
 
-### Página de Descrição do Carro Tablet
-
-<img src="src/images/carros-mobile-tablet.png" alt="Descrição do Carro" width="600"/>
 
 ### Versão Mobile
 
 <img src="src/images/mobile.png" alt="Versão Mobile" width="250"/>
+
+
+### Página de Descrição do Carro - Desktop
+
+<img src="src/images/carros-desktop.png" alt="Descrição do Carro - desktop" width="600"/>
+
+
+### Página de Descrição do Carro - Tablet e Mobile
+
+<img src="src/images/carros-mobile-tablet.png" alt="Descrição do Carro" width="400"/>
 
 ---
 
