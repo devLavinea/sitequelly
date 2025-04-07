@@ -1,7 +1,7 @@
 header {
   width: 100%;
   padding: 10px 8%;
-  position: sticky;
+  position: fixed;
   top: 0;
   background-color: var(--color-primary-3);
   z-index: 3;
